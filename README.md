@@ -16,7 +16,7 @@ returns all players
 ]
 
 ```
-
+```
 POST https://fccmcr.club/api/test/pool-leaderboard/players/john - adds player with name john
 DELETE https://fccmcr.club/api/test/pool-leaderboard/players/john - deletes player with name john
 POST https://fccmcr.club/api/test/pool-leaderboard/recordWin/john - increases john's score by 1
@@ -24,6 +24,7 @@ POST https://fccmcr.club/api/test/pool-leaderboard/recordWin/john - increases jo
 ```
 
 ## Run locally
+
 ```
 npm install -g serverless
 npm install
