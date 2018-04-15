@@ -2,6 +2,9 @@ const serverless = require('serverless-http')
 const express = require('express')
 const app = express()
 const AWS = require('aws-sdk')
+const cors = require('cors')
+
+app.use(cors())
 
 const PLAYERS_TABLE = process.env.PLAYERS_TABLE
 const IS_OFFLINE = process.env.IS_OFFLINE
