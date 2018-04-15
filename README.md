@@ -6,7 +6,17 @@ An API to track players pool victories.  You can add a player, delete a player a
 ## Example API Usage
 
 ```
-GET https://fccmcr.club/api/test/pool-leaderboard/players/ - lists all players and scores
+GET https://fccmcr.club/api/test/pool-leaderboard/players/
+```
+returns all players
+```
+[
+  {"playerName":"Adam","score":0},
+  {"playerName":"peter","score":1}
+]
+
+```
+
 POST https://fccmcr.club/api/test/pool-leaderboard/players/john - adds player with name john
 DELETE https://fccmcr.club/api/test/pool-leaderboard/players/john - deletes player with name john
 POST https://fccmcr.club/api/test/pool-leaderboard/recordWin/john - increases john's score by 1
