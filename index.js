@@ -29,7 +29,7 @@ app.get('/players', function (req, res) {
       console.log(error)
       res.send(404).json({ error: 'Could not get player table' })
     } else {
-      res.json({ data: data.Items })
+      res.json(data.Items)
     }
   })
 })
