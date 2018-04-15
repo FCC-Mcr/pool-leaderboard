@@ -24,7 +24,7 @@ POST https://fccmcr.club/api/test/pool-leaderboard/recordWin/john - increases jo
 ```
 
 ## How does it work?
-Its an AWS Lamda written in nodejs connected to an AWS DynamoDb database.
+Its an AWS Lambda written in nodejs connected to an AWS DynamoDb database.
 
 ## Run locally
 
